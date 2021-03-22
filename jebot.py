@@ -16,7 +16,7 @@ Jebot = Client(
 
 YTDL_REGEX = (r"^((?:https?:)?\/\/)"
               r"?((?:www|m)\.)"
-              r"?((?:youtube\.com|youtu\.be|instagram\.com|vk\.com))"
+              r"?((?:youtube\.com|youtu\.be|instagram\.com\tv|vk\.com))"
               r"(\/)([-a-zA-Z0-9()@:%_\+.~#?&//=]*)([\w\-]+)(\S+)?$")
 s2tw = OpenCC('s2tw.json').convert
 
